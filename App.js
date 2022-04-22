@@ -1,6 +1,12 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
-import { StyleSheet, Text, View, FlatList } from "react-native";
+import {
+  StyleSheet,
+  Text,
+  View,
+  FlatList,
+  ActivityIndicator,
+} from "react-native";
 
 export default function App() {
   const baseUrl = "https://api.github.com";
